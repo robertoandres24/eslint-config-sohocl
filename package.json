@@ -1,6 +1,6 @@
 {
   "name": "@sohocl/eslint-config-nuxt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Opinionated Eslint + Prettier config for Nuxt projects",
   "main": "index.js",
   "repository": "git@github.com:robertoandres24/eslint-config-sohocl.git",
@@ -13,10 +13,6 @@
   ],
   "author": "roberto obando",
   "license": "ISC",
-  "scripts": {
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
-  },
   "peerDependencies": {
     "babel-eslint": "^10.0.3",
     "eslint": "^6.8.0",
@@ -24,7 +20,8 @@
     "eslint-loader": "^3.0.3",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-vue": "^6.1.2",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "webpack": "^4.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
@@ -33,6 +30,7 @@
     "eslint-loader": "^3.0.3",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-vue": "^6.1.2",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "webpack": "^4.0.0"
   }
 }
