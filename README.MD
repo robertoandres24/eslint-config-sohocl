@@ -18,6 +18,7 @@ https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 
 En la raíz de tu proyecto Nuxt:
 - Ejecuta
+
 `npx install-peerdeps -D @sohocl/eslint-config-nuxt`
 
 - Crea el archivo _.eslintrc.js_  y agrega estas lineas. Si ya existe uno en tu raiz, reemplazar con el contenido indicado
