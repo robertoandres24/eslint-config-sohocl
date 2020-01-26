@@ -16,3 +16,12 @@ module.exports = {
 }
 ```
 
+
+Then, you can add lint and lintfix scripts to your package.json:
+```
+"scripts": {
+  "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+  "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
+}
+```
+
