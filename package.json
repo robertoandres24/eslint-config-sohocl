@@ -1,6 +1,6 @@
 {
   "name": "@sohocl/eslint-config-nuxt",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Opinionated Eslint + Prettier config for Nuxt projects",
   "main": "index.js",
   "repository": "git@github.com:robertoandres24/eslint-config-sohocl.git",
