@@ -1,13 +1,16 @@
 {
   "name": "eslint-config-sohocl",
   "version": "1.0.0",
-  "description": "",
+  "description": "Opinionated Eslint + Prettier config for Nuxt projects",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint+prettier",
+    "nuxt linter",
+    "nuxt formatter"
+  ],
+  "author": "roberto obando",
   "license": "ISC",
   "peerDependencies": {
     "babel-eslint": "^10.0.3",
