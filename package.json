@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-sohocl",
+  "name": "@sohocl/eslint-config-nuxt",
   "version": "1.0.0",
   "description": "Opinionated Eslint + Prettier config for Nuxt projects",
   "main": "index.js",
