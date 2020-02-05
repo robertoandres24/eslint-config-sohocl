@@ -71,6 +71,21 @@ En la raiz del proyecto Nuxt, crea una carpeta _.vscode_ y en su interior un arc
 
 Cada vez que abras un archivo, eslint te resaltará con colores, los posibles errores o malas practicas de tu codigo ya sea en archivos .vue o .js. ademas del formateo en conjunto con prettier
 
+
+## PROBLEMAS COMUNES
+1.- Si hay un archivo .vue muy grande,  en el cual eslint marca muchos errores, es probable que al guardar (cmd + s) no se arregle la indentacion, en este caso realizar lo siguiente:
+* poner el mouse sobre cualquier error que remarque eslint
+* elegir quick fix
+* resolve all fixable quick problems
+
+2.- Si eslint no funciona como deberia (agrega comillas o espacios o puntos y coma, etc) hacer lo sigueinete:
+* borrar node_modules
+* eliminar todas las dev dependencies del package.json que tengan que ver con eslint o prettier
+* instalar de nuevo el paquete npm de las configuraciones eslint @soho    
+`npx install-peerdeps -D @sohocl/eslint-config-nuxt`
+
+
+
 ## NUEVAS REGLAS 
 ---
 Las nuevas reglas se deben discutir en equipo, y una vez aceptadas por la mayoría, los pasos a seguir serían:
