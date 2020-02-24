@@ -23,7 +23,9 @@ module.exports = {
     ]
   },
   globals: {
-    $nuxt: true
+    $nuxt: true,
+    $: true,
+    jQuery: true
   },
   parserOptions: {
     parser: "babel-eslint"
