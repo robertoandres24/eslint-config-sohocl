@@ -78,12 +78,13 @@ Cada vez que abras un archivo, eslint te resaltará con colores, los posibles er
 * elegir quick fix
 * resolve all fixable quick problems
 
-2.- Si eslint no funciona como deberia (agrega comillas o espacios o puntos y coma, etc) hacer lo sigueinete:
+2.- Si eslint no funciona como deberia. agrega comillas, espacios o puntos y coma, de forma intermitente, cada vez que guardas, intenta las posibles soluciones:
 * borrar node_modules
 * eliminar todas las dev dependencies del package.json que tengan que ver con eslint o prettier
 * instalar de nuevo el paquete npm de las configuraciones eslint @soho    
 `npx install-peerdeps -D @sohocl/eslint-config-nuxt`
 
+* Se ha detectado que hay conflictos cuando tienes configuraciones de vscode guardadas en el Workspace, por lo que **es recomendable abrir sólamente en tu editor, la carpeta del proyecto actual.**
 
 
 ## NUEVAS REGLAS 
