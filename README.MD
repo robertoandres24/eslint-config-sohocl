@@ -1,4 +1,4 @@
-# Opinionated Linter and Formatter for Nuxt projects
+# Opinionated Linter and Formatter for Nuxt projects in VsCode
 
 ## REQUISITOS
 ---
